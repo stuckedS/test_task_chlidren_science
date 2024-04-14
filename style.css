@@ -1,0 +1,139 @@
+.help-message {
+    width: 484px;
+    max-width: 484px;
+}
+
+
+
+/* --- this task elements --- */
+
+.draggable {
+    width: 34px;
+    height: 48px;
+
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+}
+
+.draggables-stack {
+    width: 34px;
+    height: 48px;
+}
+
+.droppable {
+    width: 34px;
+    height: 48px;
+}
+
+
+/* --- this task step 2 --- */
+
+#field[data-task="1"] .__image1 {
+    top: 150px;
+    right: 150px;
+}
+
+#field[data-task="1"] .__image2 {
+    top: 250px;
+    left: 0px;
+}
+
+#field[data-task="1"] .__image3 {
+    top: 250px;
+    left: 300px;
+}
+
+#field[data-task="1"] .__image4 {
+    top: 250px;
+    left: 18px;
+}
+
+#field[data-task="1"] .droppable {
+    top: 300px;
+}
+
+#field[data-task="1"] .draggable {
+    top: 380px;
+}
+
+#field[data-task="1"] #draggable1
+{
+
+    left: 74px;
+}
+#field[data-task="1"] #draggable2
+{
+
+    left: 112px;
+}
+#field[data-task="1"] #draggable3
+{
+
+    left: 150px;
+}
+#field[data-task="1"] #draggable4
+{
+
+    left: 188px;
+}
+#field[data-task="1"] #draggable5 {
+
+    left: 226px;
+}
+#field[data-task="1"] #draggable6 {
+
+    left: 264px;
+}
+
+#field[data-task="1"] #droppable1 {
+    left: 74px;
+}
+#field[data-task="1"] #droppable2 {
+    left: 112px;
+}
+#field[data-task="1"] #droppable3 {
+    left: 150px;
+}
+#field[data-task="1"] #droppable4 {
+    left: 188px;
+}
+#field[data-task="1"] #droppable5 {
+    left: 226px;
+}
+#field[data-task="1"] #droppable6 {
+    left: 264px;
+}
+
+
+#field[data-task="2"] .__image1 {
+    top: 150px;
+    right: 150px;
+}
+
+#field[data-task="2"] .clickable {
+    top: 300px;
+}
+
+#field[data-task="2"] #clickable1
+{
+
+    left: 32px;
+}
+#field[data-task="2"] #clickable2
+{
+    left: 74px;
+    
+}
+#field[data-task="2"] #clickable3
+{
+    left: 112px;
+    
+}
+#field[data-task="2"] #clickable4
+{
+    left: 150px;
+}
+
+
